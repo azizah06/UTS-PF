@@ -1,0 +1,46 @@
+.sidebar-app .dashboard .rw-dash{
+    height: 90vh;
+}
+
+.sidebar-app .col-10{
+    background-color: #F2F7FF;
+}
+
+.home .card img{
+    width: 160px;
+}
+
+.sidebar{
+    position: fixed;
+    width: 200px;
+}
+
+/* Efek hover pada item sidebar */
+.sidebar .nav-link:hover {
+    background-color: #f8f9fa; /* Ubah warna latar belakang saat hover */
+}
+
+.sidebar .nav-link:hover span {
+    color: #007bff; /* Ubah warna teks saat hover */
+}
+
+.sidebar .nav-link:hover .bi {
+    color: #007bff; /* Ubah warna ikon saat hover */
+}
+
+
+.sidebar-app {
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    /* padding: 20px; */
+}
+
+
