@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Page content -->
-    <div class="container-sm my-5">
+    <div class="container-sm my-5 pt-5">
         <form action="{{ route('inventorys.update', $barang->id) }}" method="POST">
             @csrf
             @method('PUT')
@@ -10,8 +10,7 @@
                 {{-- Dan Seterusnya --}}
                 <div class="p-5 bg-light rounded-3 border col-xl-6">
                     <div class="mb-3 text-center">
-                        <i class="bi-person-circle fs-1"></i>
-                        <h4>Create Employee</h4>
+                        <h4>Detail Barang</h4>
                     </div>
                     <hr>
                     <div class="row">
@@ -90,11 +89,11 @@
                         <div class="col-md-6 d-grid">
                             <a href="{{ route('inventorys.index') }}" class="btn btn-outline-dark btn-lg mt-3"><i
                                     class="bi-arrow-left-circle me-2"></i>
-                                Cancel</a>
+                                Batal</a>
                         </div>
                         <div class="col-md-6 d-grid">
-                            <button type="submit" class="btn btn-dark btn-lg mt-3"><i class="bi-check-circle me-2"></i>
-                                Save</button>
+                            <button type="submit" class="btn btn-success btn-lg mt-3"><i class="bi-check-circle me-2"></i>
+                                Simpan</button>
                         </div>
                     </div>
                 </div>
